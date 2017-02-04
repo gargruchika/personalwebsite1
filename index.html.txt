@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<title>ruchika garg</title>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<h1>Ruchi's restaurant</h1>
+<h2>a best place for foodies</h2>
+<div class="first">
+<p>noodels<span class="price"> Rs140</span> <br>
+<small>delicious noodles in diffrent type like veg noodles,non-veg noodles etc availaible at reasonable prices with best quality </small></p></div>
+<div class="second">
+<p>veg rolls<span class="price"> Rs120</span><br>
+<small>yummy veg rolls with different stuffing material and creams having different types of sauces with it and with best prices</small></p></div>
+<div class="dessert">
+<p>cakes<span class="price"> Rs200</span> <br>
+<small>huge collection of vareity of cakes with yummy flavours and available at reasonable prices with best quality </small></p></div>
+<script>
+ $('div').on('click', function() {
+ $(this).toggleClass('show-description');
+ });
+</script>
+</body>
+</html>
